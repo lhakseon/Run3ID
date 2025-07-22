@@ -84,8 +84,8 @@ Loose (SEF = 0.89)
 plotting
 
 cd Trainner/TMVA/plots
-root -l aPlotRunner.C
-# Output: SEF*_Barrel_Plots_updat_SR_TruePVID.root
+root -l aPlotRunner.C   
+Output: SEF*_Barrel_Plots_updat_SR_TruePVID.root
 
 root -l plotter.C   # use above root files as input
 
