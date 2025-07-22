@@ -1,0 +1,3 @@
+double hcal_scale1 = 0.0132118;
+double hcal_scale2 = 3.52613e-05;
+double ecal_scale = 0.0489657;
