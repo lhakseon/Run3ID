@@ -25,7 +25,7 @@ void aPlotRunner() {
         config << "double medium_isoC = " << isoC << ";\n";
         config << "double medium_ecal = " << ecal << ";\n";
         config << "double medium_hcal = " << hcal << ";\n";
-        config << "const char* output_filename = \"" << int(SEF * 100 + 0.5) << "_MediumEffBck_TruePV.png\";\n";
+        config << "const char* output_filename = \"" << "SEF" <<int(SEF * 100 + 0.5) << "_MediumEffBck_TruePV.png\";\n";
         config << "const char* testoutput = \"" << "SEF" <<int(SEF * 100 + 0.5) << "_Barrel_Plots_updat_SR_TruePVID.root\";\n";
         config.close();
 
