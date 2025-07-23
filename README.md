@@ -10,14 +10,18 @@ Compile the macro:
 
 Prepare 3 sets of output ROOT files:
         GJets
+
         Flat pt samples
+
         Background samples
 
 
 
 Merge outputs:
         hadd Merge.root gjet_40*.root
+
         hadd Flat_all.root flat*.root
+
         hadd QCD_all.root qcd*.root
 
 -------------------------------
