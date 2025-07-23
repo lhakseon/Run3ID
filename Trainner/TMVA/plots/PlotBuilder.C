@@ -303,9 +303,9 @@ int nbinss = 24;
   EffETAMbp->Sumw2();
 
 
-double epscale = 0.002611;
-double hpscale = 0.005786;
-double hppscale = 1.76e-05;
+double epscale = 0.9573;
+double hpscale = 0.005472;
+double hppscale = 0.0000178;
 double medium_ept = epscale;
 double medium_hpt = hpscale;
 double medium_hptpt = hppscale;
