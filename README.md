@@ -28,8 +28,8 @@ Compute Effective Area (EA)
 
 cd EAS
 vi ContourBuilderpv.C   # set input = "Merge.root"
-root -l -b runCont.C
-        # Output: EA_1_60_TruePV_test.txt
+
+root -l -b runCont.C    # Output: EA_1_60_TruePV_test.txt
 
 -------------------------------
 Compute pt Scaling
