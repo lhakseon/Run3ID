@@ -87,21 +87,13 @@ void Reader_neu(){
  //     double SEF =  0.73;   //Tight   
 //      double SEF =  0.82;   
 //
-/*std::vector<double> sef_values = {
-    0.99, 0.98, 0.97, 0.96, 0.95,
-    0.94, 0.93, 0.92, 0.91, 0.90,
-    0.89, 0.88, 0.87, 0.86, 0.85,
-    0.84, 0.83, 0.82, 0.81, 0.80,
-    0.79, 0.78, 0.77, 0.76, 0.75,
-    0.74, 0.73, 0.72, 0.71, 0.70
-};*/
- std::vector<double> sef_values;
-   for (double val = 0.99; val >= 0.70; val -= 0.01)
-        sef_values.push_back(val);
+std::vector<double> sef_values = {
+    0.89, 0.82, 0.73
+};
+
 
 for (double SEF : sef_values) { 
   if(mcuts)mcuts->GetCuts(SEF, cutsMin, cutsMax ); 
-//  myfileL<<" "<<cutsMax[0]<<" "<<cutsMax[1]<<" "<<cutsMax[2]<<" "<<cutsMax[3]<<" "<<cutsMax[4]<<" "<<endl;  
   myfileL<<SEF<<" "<<cutsMax[0]<<" "<<cutsMax[1]<<" "<<cutsMax[2]<<" "<<cutsMax[3]<<" "<<cutsMax[4]<<" "<<"\n"<<endl;  
 }
 
