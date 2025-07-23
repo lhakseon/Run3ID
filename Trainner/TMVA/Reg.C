@@ -54,8 +54,8 @@ void Reg(){
   dataloader->AddVariable("Sieie", 'F');
   dataloader->AddVariable("ToE", 'F');
   dataloader->AddVariable("(isoC>0)? isoC-0.0 : 0.0", 'F');
-  dataloader->AddVariable("(isoecal-(0.9573*Ppt) > 0 ) ? isoecal-(0.9573*Ppt) : 0.0", 'F');
-  dataloader->AddVariable("(isohcal-(0.005472*Ppt+(0.0000178)*Ppt*Ppt) > 0 ) ? isohcal-(0.005472*Ppt+(0.0000178)*Ppt*Ppt) : 0.0", 'F');
+  dataloader->AddVariable("(isoecal-(0.000583374*Ppt) > 0 ) ? isoecal-(0.000583374*Ppt) : 0.0", 'F');
+  dataloader->AddVariable("(isohcal-(0.0112465*Ppt+(1.46174e-05)*Ppt*Ppt) > 0 ) ? isohcal-(0.0112465*Ppt+(1.46174e-05)*Ppt*Ppt) : 0.0", 'F');
   dataloader->AddSpectator("Ppt", 'F');
 
 
