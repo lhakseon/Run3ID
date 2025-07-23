@@ -65,8 +65,8 @@ void Reader_neu(){
       reader->AddVariable("Sieie",&Sieie);
       reader->AddVariable("ToE",&ToE);
       reader->AddVariable("(isoC>0)? isoC-0.0 : 0.0", &isoC);
-      reader->AddVariable("(isoecal-(0.9573*Ppt) > 0 ) ? isoecal-(0.9573*Ppt) : 0.0",&isoecal);
-      reader->AddVariable("(isohcal-(0.005472*Ppt+(0.0000178)*Ppt*Ppt) > 0 ) ? isohcal-(0.005472*Ppt+(0.0000178)*Ppt*Ppt) : 0.0",&isohcal);
+      reader->AddVariable("(isoecal-(0.000583374*Ppt) > 0 ) ? isoecal-(0.000583374*Ppt) : 0.0",&isoecal);
+      reader->AddVariable("(isohcal-(0.0112465*Ppt+(1.46174e-05)*Ppt*Ppt) > 0 ) ? isohcal-(0.0112465*Ppt+(1.46174e-05)*Ppt*Ppt) : 0.0",&isohcal);
   
 
   reader->AddSpectator("Ppt",&pt);
