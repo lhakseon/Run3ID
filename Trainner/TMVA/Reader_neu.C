@@ -77,16 +77,7 @@ void Reader_neu(){
   std::vector<Double_t> cutsMin;
   std::vector<Double_t> cutsMax;
  
-//double SEF = mymarking;
-   //       double SEF =  0.80;   
-  //          double SEF =  0.91;   
-//  //    //very loose   
-//     double SEF =  0.89;   //loose   
-//        double SEF =  0.818;   //custMedium   
-//        double SEF =  0.82;   //Medium   
- //     double SEF =  0.73;   //Tight   
-//      double SEF =  0.82;   
-//
+// high pt - 0.89 tight 0.82 medium 0.73 loose
 std::vector<double> sef_values = {
     0.89, 0.82, 0.73
 };
