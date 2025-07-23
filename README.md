@@ -8,20 +8,18 @@ Compile the macro:
 ./all sample_location outputrootfile -1 10000 evenweight #from submit.sh
 
 
-Prepare 3 sets of output ROOT files:
-        GJets
-
+Prepare 3 sets of output ROOT files
+ 
+       GJets
         Flat pt samples
-
         Background samples
 
 
 
-Merge outputs:
+Merge outputs
+
         hadd Merge.root gjet_40*.root
-
         hadd Flat_all.root flat*.root
-
         hadd QCD_all.root qcd*.root
 
 -------------------------------
